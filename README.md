@@ -1,17 +1,17 @@
-# Laravel Template – Known Issues
+# 🛒 Laravel 11 Product Module Template
 
-### 1. ❌ MySQL Dump Error (DB Backup)
-- **Error:** `DumpFailed::processDidNotEndSuccessfully`
-- **Cause:** Missing `mysqldump` or misconfigured DB settings.
-- **Fix:** Check `.env`, ensure `mysqldump` is installed and path is correct.
+This project is a Laravel 11-based template featuring a fully functional **Product Module** with integrated **user roles** (Admin and Regular User) using **Spatie Permission v6**.
 
-### 2. 📧 Mail Sending Failed
-- **Error:** `getaddrinfo for mailhog failed`
-- **Cause:** Mailhog not running or wrong host.
-- **Fix:** Use `MAIL_HOST=127.0.0.1` and ensure Mailhog is running.
+## 🚀 Features
 
-### 3. 🎨 UI & Store Request Issues
-- **Error:** Product/Category UI not rendering or saving.
-- **Cause:** Blade/component errors or failed validation.
-- **Fix:** Check form bindings, validation, and controller logic.
+- Laravel 11 with modern Blade components
+- Product Module with full CRUD (Create, Read, Update, Delete)
+- Role-based access control using Spatie Permission
+- Product module access via regular admin account
+- Form validation with clean controller logic
 
+
+### ✅ Product Module
+- Add, edit, and delete products
+- UI built with Blade components
+- Validation and user feedback included
