@@ -1,5 +1,4 @@
 # 🛒 Product catalog practice using the Limitless template and Laravel 11
-
 This project is a Laravel 11-based template featuring a fully functional **Product Module** with integrated **user roles** (Admin and Regular User) using **Spatie Permission v6**.
 
 ## 🚀 Features
