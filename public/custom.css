@@ -1,0 +1,164 @@
+/* sidebar class */
+
+/* .sidebar-expand-lg {
+    --sidebar-border-width: 0 !important;
+    z-index: 1040 !important;
+    transition: left ease-in-out var(--transition-base-timer),right ease-in-out var(--transition-base-timer) !important;
+}
+
+.sidebar-expand-lg.sidebar-main-resized:not(.sidebar-collapsed):not(.sidebar-main-unfold) {
+    --sidebar-border-width: 0 !important;
+    z-index: 1040 !important;
+    transition: left ease-in-out var(--transition-base-timer),right ease-in-out var(--transition-base-timer) !important;
+} */
+
+@media (max-width: 991.98px) {
+    .profile-img {
+        margin-right: 10px;
+    }
+}
+
+.btn-no-radius {
+    /* border-radius: unset !important */
+}
+
+.btn-square {
+    width: 35px;
+    height: 35px;
+}
+
+.card>.card-header, .card>.card-header i {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.table-head {
+    background-color: var(--primary);
+    color: #ffffff;
+}
+
+.table-tr {
+    transition: all .3s ease;
+}
+
+.table-tr:hover {
+    background-color: #ddd;
+}
+
+/* .table-td {
+    padding: 15px !important;
+} */
+
+.table-ul {
+    margin-bottom: 0px !important;
+}
+
+/* table>thead {
+    background-color: var(--primary);
+}
+
+table>thead th {
+    color: #ffffff;
+}
+
+table>tbody tr {
+    transition: all .3s ease;
+}
+
+.table>tbody tr:hover {
+    background-color: #ddd;
+}
+
+table>thead th, table>tbody td {
+    padding: 15px !important;
+} */
+
+td.actions .btn i {
+    font-size: 14px;
+}
+
+.modal-header, .modal-header button  {
+    color: #fff;
+    background-color: var(--secondary);
+}
+
+.content {
+    padding: 40px 20px;
+}
+
+.btn i{
+    font-size: 14px;
+}
+
+form .btn {
+    /* min-width: 140px; */
+}
+
+.dataTable thead td, .dataTable thead th {
+    position: relative;
+}
+
+.dataTable thead .sorting:not(.sorting_desc)::before, .dataTable thead .sorting_asc_disabled::before {
+    content: "\f0d7";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    right: 2%;
+}
+
+.dataTable thead .sorting:not(.sorting_asc)::before, .dataTable thead .sorting_desc_disabled::after {
+    content: "\f0d8";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    right: 2%;
+}
+
+
+
+table tr, table td {
+    border: 1px solid #d2d2d2;
+}
+
+.password-div {
+    position: relative;
+}
+
+/* .password-div .toggle-password {
+    position: absolute;
+    z-index: 10;
+    right: 25px;
+    margin-top: -29px;
+    padding: 0;
+    border: 0;
+    background: none;
+} */
+
+.label-required::after {
+    content: ' *';
+    color: red;
+}
+
+.sidebar-expand-lg.sidebar-main-resized:not(.sidebar-collapsed) {
+    transition: width 0.5s ease !important;
+}
+
+@media (min-width: 992px) {
+ .sidebar-expand-lg.sidebar-main-resized:not(.sidebar-collapsed):not(.sidebar-main-unfold) .nav-sidebar .nav-link>span {
+    display: inline-block !important;
+    transition: .2s ease;
+    opacity: 0;
+    position: absolute;
+}
+}
+
+table td {
+    white-space: nowrap !important;
+}
+
+.table-radius {
+    border: 0.1px solid #d2d2d2;
+    border-radius: 0.5rem !important;
+}
